@@ -1,0 +1,78 @@
+$btn-w: 249px;
+$btn-h: 61px;
+
+.holiday {
+  position: relative;
+  .video-block {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    video {
+      position: absolute;
+      min-height: unset;
+      height: auto;
+    }
+  }
+  text-align: center;
+  @include size(100%,989px);
+  padding-top: 140px;
+  @include border-box;
+  .holiday-wrapper {
+    @include border-box;
+    padding-left: 23px;
+    @media (max-width: $screen-1280) {
+      left: -77px;
+    }
+    left: -36px;
+    @media (min-width: $max-body-w) {
+      left: 0;
+    }
+  }
+  .section-title {
+    text-align: left;
+    max-width: 630px;
+    margin-bottom: 35px;
+  }
+  .section-description {
+    text-align: left;
+  }
+  .advantages {
+    margin-top: 94px;
+    @include border-box;
+    white-space: nowrap;
+    list-style: none;
+    li {
+      vertical-align: top;
+      text-align: left;
+      display: inline-block;
+      max-width: 218px;
+      margin-right: 134px;
+      &:nth-child(4n) {
+        margin-right: 0;
+      }
+      .letter {
+        display: block;
+        font: {
+          family: "Circe-Bold", sans-serif;
+          size: 72px;
+        }
+        color: $yellow;
+        margin-bottom: 15px;
+      }
+      margin-bottom: 39px;
+    }
+  }
+  .middle-title {
+    text-align: left;
+  }
+  .btn {
+    margin-top: 55px;
+    @include size($btn-w,$btn-h);
+    line-height: $btn-h + 2;
+    float: left;
+    display: block;
+  }
+}

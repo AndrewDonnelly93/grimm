@@ -1,0 +1,31 @@
+.mobile.quest {
+  .holiday-gallery-list {
+    width: 100%;
+    @media (min-width: $mobile-600) {
+      li {
+        width: 33.3%;
+      }
+    }
+  }
+  .quest-description {
+    background: $base-color;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    .dark-section-title {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.mobile.project {
+  .quest-description {
+    .more-btn-container {
+      padding: 20px 0;
+      background: rgba($yellow,.2);
+    }
+    .more-btn {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}

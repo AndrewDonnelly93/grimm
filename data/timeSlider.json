@@ -1,0 +1,9 @@
+[
+  {"sliderInput": 1, "trueInput": 1, "cost": 10000},
+  {"sliderInput": 2, "trueInput": 1.5, "cost": 11000},
+  {"sliderInput": 3, "trueInput": 2, "cost": 12000},
+  {"sliderInput": 4, "trueInput": 3, "cost": 13000},
+  {"sliderInput": 5, "trueInput": 4, "cost": 14000},
+  {"sliderInput": 6, "trueInput": 5, "cost": 15000},
+  {"sliderInput": 7, "trueInput": 6, "cost": 16000}
+]

@@ -1,0 +1,7 @@
+[
+  {"place": "center", "price": 5000},
+  {"place": "another", "price": 7000},
+  {"place": "home", "price": 0},
+  {"place": "school", "price": 0},
+  {"place": "kinder-garden", "price": 0}
+]

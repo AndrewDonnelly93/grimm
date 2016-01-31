@@ -1,0 +1,41 @@
+.bottom-menu {
+  .layout-center-wrapper {
+    @media (max-width: $screen-1280) {
+      left: 0;
+    }
+    @media (min-width: $max-body-w) {
+      right: -100px;
+    }
+  }
+  padding: 10px 0 18px;
+  text-align: right;
+  @media (min-width: $max-body-w) {
+    padding-bottom: 90px;
+    &.fixed {
+      padding-bottom: 40px;
+    }
+  }
+  background: $yellow;
+  .main-menu-container {
+    padding-top: 13px;
+    .main-menu {
+      margin-top: 0;
+    }
+  }
+  width: 100%;
+  &.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+  }
+}
+
+.index .bottom-menu .main-menu-container .main-menu,
+.portfolio .bottom-menu .main-menu-container .main-menu {
+  position: relative;
+  top: 3px;
+}
+
+.portfolio .bottom-menu .main-menu-container .main-menu {
+  top: 1px;
+}

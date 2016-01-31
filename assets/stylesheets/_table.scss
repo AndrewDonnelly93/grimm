@@ -1,0 +1,90 @@
+$table-menu-h: 60px;
+.table  {
+  width: 100%;
+  .side-block {
+    vertical-align: top;
+    display: none;
+    width: $side-block-w;
+    background: $light-gray;
+    padding-top: 235px;
+  }
+  .table-menu {
+    a {
+      color: $black;
+      font: {
+        family: "Circe-Light", sans-serif;
+        size: 24px;
+      }
+      @extend %text-overflow;
+    }
+  }
+  .main-cell {
+    position: relative;
+    vertical-align: top;
+    background: $yellow;
+    @include border-box;
+    text-align: center;
+    @media (max-width: $screen-1366) {
+      text-align: right;
+    }
+  }
+  .small-menu-cell {
+    vertical-align: middle;
+  }
+  .table-menu.small-table-menu {
+    background: $light-gray;
+    text-align: center;
+    li {
+      display: inline-block;
+      width: 416px;
+      margin-bottom: -7px;
+      a {
+        text-decoration: none;
+      }
+      .name {
+        padding-top: 13px;
+        text-decoration: none;
+      }
+      &.active {
+        background: $yellow;
+      }
+    }
+  }
+}
+
+@media (min-width: 1920px) {
+  .table  {
+    .small-menu-cell {
+      display: none;
+    }
+    .side-block {
+      display: table-cell;
+      .table-menu li {
+        background: $light-gray;
+        height: $table-menu-h;
+        &.active {
+          background: $yellow;
+
+        }
+      }
+      .table-menu.small-table-menu {
+        display: none;
+      }
+      .table-menu a {
+        height: $table-menu-h;
+        line-height: $table-menu-h + 2;
+        @include border-box;
+        text: {
+          decoration: none;
+          align: left;
+        }
+        color: $black;
+      }
+    }
+    .main-cell {
+      .table-wrapper {
+        @include border-box;
+      }
+    }
+  }
+}

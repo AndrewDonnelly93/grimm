@@ -1,0 +1,81 @@
+$callback-form-w: 470px;
+$input-container-h: 68px;
+.callback-form {
+  display: none;
+  position: fixed;
+  text-align: center;
+  z-index: 20;
+  @extend %full-size-absolute;
+  background: $yellow;
+  color: $dark-black;
+  font: {
+    family: "Circe-Light", sans-serif;
+    size: 24px;
+  }
+  &.active {
+    display: block;
+  }
+  .callback-form-wrapper {
+    width: $callback-form-w;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    @include transform(translate(-50%, -50%));
+  }
+  .close-form {
+    position: absolute;
+    opacity: .3;
+    right: 0;
+    top: -100px;
+    cursor: pointer;
+    border-bottom: 1px solid $dark-black;
+  }
+  .form-description {
+    margin-bottom: 60px;
+  }
+  .input-container {
+    background: $yellow;
+    @include placeholder($dark-black);
+    height: $input-container-h;
+    @include size(100%, $input-container-h);
+    position: relative;
+    &:before {
+      position: absolute;
+      content: '';
+      left: 0;
+      right: 0;
+      bottom: 12px;
+      height: 2px;
+      background: $dark-black;
+    }
+  }
+  input[type="text"] {
+    font-size: 24px;
+    background: none;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    @include placeholder($dark-black);
+    opacity: .3;
+  }
+  input[type="text"]:focus {
+    opacity: 1;
+  }
+  ::-webkit-input-placeholder {color:$dark-black;}
+  ::-moz-placeholder          {color:$dark-black;}/* Firefox 19+ */
+  :-moz-placeholder           {color:$dark-black;}/* Firefox 18- */
+  :-ms-input-placeholder      {color:$dark-black;}
+  &:active {
+    display: block;
+  }
+  input[type="submit"] {
+    @include size(100%, $input-container-h);
+    line-height: $input-container-h + 1;
+    @include border-box;
+    margin-top: 68px;
+    font-size: 24px;
+    border: 2px solid $dark-black;
+  }
+}

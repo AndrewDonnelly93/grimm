@@ -1,0 +1,261 @@
+$content-frame-w: 1043px;
+$project-video-h: 565px;
+$mobile-600: 600px;
+
+.case {
+  .bottom-menu .main-menu-container .main-menu {
+    display: inline-block;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+}
+
+.project-description {
+  position: relative;
+  background: $yellow;
+  padding-top: 344px;
+  padding-bottom: 35px;
+  .project-bg {
+    text-align: right;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    @include border-box;
+    padding-top: 60px;
+    .layout-center-wrapper {
+      text-align: left;
+      right: 0;
+      z-index: 3;
+    }
+    @include size(100%,$quest-screen-h);
+    background: $bg-color url("../images/bg-quest.png") center 0 no-repeat;
+    background-size: cover;
+    &:before {
+      z-index: 2;
+      @extend %full-size-absolute;
+      content: '';
+      background-color: rgba(179, 122, 37, .45);
+    }
+  }
+  .project-frame {
+    p {
+      width: 100%;
+    }
+    h2 {
+      width: 100%;
+    }
+    ul,ol {
+      width: 100%;
+    }
+    padding-top: 30px;
+    padding-bottom: 44px;
+    background: $base-color;
+    width: $content-frame-w;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    //&:before {
+    //  width: 0;
+    //  height: 0;
+    //  border-style: solid;
+    //  border-width: 0 53.5px 37px 53.5px;
+    //  border-color: transparent transparent $base-color transparent;
+    //  content: '';
+    //  position: absolute;
+    //  top: -37px;
+    //  left: 50%;
+    //  margin-left: -53.5px;
+    //}
+    .project-video {
+      text-align: right;
+      padding-top: 30px;
+      background: rgba($yellow,.2);
+      .video-list {
+        position: relative;
+        list-style: none;
+        text-align: left;
+      }
+      &.single-layout {
+        .video-list {
+          .video-item {
+            display: block;
+            margin: 0 auto;
+            @include size(854px, 480px);
+            video {
+              position: relative;
+              top: auto;
+              @include size(854px, 480px);
+              @include transform(translateY(0));
+              left: 0;
+              margin-left: 0;
+              min-width: unset;
+              min-height: unset;
+            }
+          }
+        }
+      }
+      &.double-layout {
+        .video-list {
+          .video-item {
+            display: inline-block;
+            @include size(.5 * 854px, .5 * 480px);
+            video {
+              position: relative;
+              top: auto;
+              @include size(.5 * 854px, .5 * 480px);
+              @include transform(translateY(0));
+              left: 0;
+              margin-left: 0;
+              min-width: unset;
+              min-height: unset;
+            }
+            margin-bottom: 30px;
+            &:nth-child(odd) {
+              float: left;
+              margin-left: 30px;
+            }
+            &:nth-child(even) {
+              margin-right: 30px;
+              float: right;
+            }
+          }
+        }
+      }
+      position: relative;
+      iframe {
+        @extend %full-size-absolute;
+      }
+    }
+    .quest-video {
+      width: 100%;
+      height: $project-video-h;
+      margin-bottom: 30px;
+    }
+    .content-wrapper {
+      text-align: left;
+      width: $content-frame-w - 38;
+      margin: 0 auto;
+    }
+    .section-description {
+      margin-bottom: 24px;
+      text-transform: uppercase;
+    }
+    .quest-description {
+      padding-top: 28px;
+      width: 100%;
+    }
+    img {
+      @extend %adaptive-image;
+      margin-bottom: 20px;
+    }
+    .show-quest {
+      position: static;
+      display: table-row;
+      .dark-section-description {
+        display: table-cell;
+        vertical-align: middle;
+        padding-right: 50px;
+      }
+      .btn {
+        display: table-cell;
+        vertical-align: middle;
+      }
+    }
+  }
+  .holiday-gallery-list {
+    li {
+      width: 50%;
+      @media (min-width: $mobile-600) {
+        width: 25% !important;
+      }
+      vertical-align: top;
+      img {
+        vertical-align: bottom;
+        margin-bottom: 0;
+        &:hover {
+          @include transform(scale(1.1));
+          @include blur(0);
+          @include transform(scale3d(1.1,1.1,1.1));
+        }
+      }
+    }
+    margin-bottom: 40px;
+  }
+
+  .quest-description {
+    padding-top: 0 !important;
+    .text-block {
+      ul, ol {
+        @include border-box;
+        padding-left: 23px;
+      }
+    }
+    .content-block {
+      padding: 0;
+    }
+    .holiday-block {
+      padding: 0;
+      width: 100%;
+    }
+    @media (min-width: $max-body-w) {
+      .holiday-block {
+        padding: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+#case-archaeologists {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/cases/archaeologists/archaeologists%20(26).jpg");
+    }
+  }
+}
+
+
+#case-hp {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/quests/harry-potter/harry-potter%20(7).jpg");
+    }
+  }
+}
+
+#case-winks {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/cases/winks/winks%20(14).jpg");
+    }
+  }
+}
+
+#case-karting {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/cases/karting/karting%20(3).jpg");
+    }
+  }
+}
+
+#case-maincraft {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/cases/maincraft/maincraft%20(9).jpg");
+    }
+  }
+}
+
+#case-hundred-to-one {
+  .project-description {
+    .project-bg {
+      background-image: url("../photos/cases/hundred-to-one/hundred-to-one%20(16).jpg");
+    }
+  }
+}
+

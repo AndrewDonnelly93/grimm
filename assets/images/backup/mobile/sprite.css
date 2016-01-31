@@ -1,0 +1,53 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-arrow {
+  background-image: url(sprite.png);
+  background-position: 0px -108px;
+  width: 30px;
+  height: 35px;
+}
+.icon-arrow_16x14 {
+  background-image: url(sprite.png);
+  background-position: -112px -54px;
+  width: 16px;
+  height: 14px;
+}
+.icon-hand {
+  background-image: url(sprite.png);
+  background-position: 0px 0px;
+  width: 51px;
+  height: 68px;
+}
+.icon-laur {
+  background-image: url(sprite.png);
+  background-position: -112px 0px;
+  width: 67px;
+  height: 49px;
+}
+.icon-left-arrow {
+  background-image: url(sprite.png);
+  background-position: -41px -73px;
+  width: 12px;
+  height: 21px;
+}
+.icon-menu_36x30 {
+  background-image: url(sprite.png);
+  background-position: 0px -73px;
+  width: 36px;
+  height: 30px;
+}
+.icon-orange-hand {
+  background-image: url(sprite.png);
+  background-position: -56px 0px;
+  width: 51px;
+  height: 68px;
+}

@@ -1,0 +1,55 @@
+.quest-screen {
+  background-color: unset;
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  &:before {
+    z-index: 2;
+    @extend %full-size-absolute;
+    content: '';
+    background-color: rgba(179, 122, 37, .45);
+  }
+  .layout-center-wrapper {
+    z-index: 3;
+  }
+}
+
+#quest-fort .quest-screen {
+  background-image: url("../photos/quests/fort/fort%20(22).jpg");
+}
+
+#quest-hp .quest-screen {
+  background-image: url("../photos/quests/harry-potter/harry-potter%20(7).jpg");
+}
+
+#quest-egypt .quest-screen {
+  background-image: url("../photos/quests/egypt/egypt%20(9).jpg");
+}
+
+#quest-maincraft .quest-screen {
+  background-image: url("../photos/quests/maincraft/maincraft%20(9).jpg");
+}
+
+#quest-white-disco .quest-screen {
+  background-image: url("../photos/quests/white-disco/disco%20(26).jpg");
+}
+
+#quest-fear-factor .quest-screen {
+  background-image: url("../photos/quests/fear-factor/fear%20(3).jpg");
+}
+
+#quest-time-lord .quest-screen {
+  background-image: url("../photos/quests/time-lord/time%20(2).jpg");
+}
+
+#quest-bamblbi .quest-screen {
+  background-image: url("../photos/quests/bamblbi/bamblbi%20(22).jpg");
+}
+
+#quest-cookery .quest-screen {
+  background-image: url("../photos/quests/cookery/cookery%20(25).jpg");
+}
+
+#quest-star-wars .quest-screen {
+  background-image: url("../photos/quests/star-wars/star%20(6).jpg");
+}

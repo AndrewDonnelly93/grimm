@@ -1,0 +1,264 @@
+$horizontal-img-w: 960px;
+$horizontal-img-h: 438px;
+$work-description-w: 479px;
+
+.our-work {
+  width: 100%;
+  .works-list {
+    li {
+      clear: both;
+    }
+  }
+  @media (min-width: $max-body-w) {
+    &.portfolio-list .works-list>li:last-child {
+      display: none;
+    }
+  }
+  .work-description {
+    width: $work-description-w;
+    @include border-box;
+    background: $base-color;
+    background: rgba($base-color, .8);
+    padding: 8px 40px 75px 8px;
+    .text-block {
+      font-size: 16px;
+      padding-bottom: 0;
+    }
+    .small-title {
+      font: {
+        family: "Circe-Regular", sans-serif;
+      }
+      margin-bottom: 6px;
+    }
+    .more-btn {
+      position: absolute;
+      left: 8px;
+      bottom: 15px;
+      @include size(129px,37px);
+      line-height: 39px;
+    }
+    position: absolute;
+    // left
+    bottom: 6px;
+    left: 6px;
+    &:before {
+      // left
+      position: absolute;
+      content: '';
+      top: 50%;
+      margin-top: -35px;
+      left: -32px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 35px 32px 35px 0;
+      border-color: transparent $base-color transparent transparent;
+      border-color: transparent rgba($base-color, .8) transparent transparent;
+    }
+  }
+  .img-list {
+    li {
+      position: relative;
+      display: block;
+      .horizontal-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+      }
+      .normal-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        vertical-align: bottom;
+      }
+    }
+  }
+  // Текст слева сверху left-bottom
+  .small-block.lt {
+    width: 50%;
+    float: left;
+    position: relative;
+    .img-list {
+      li {
+        vertical-align: bottom;
+        &:nth-child(odd) {
+          .work-description {
+            top: 6px;
+            right: auto;
+            bottom: auto;
+            left: 6px;
+            &:before {
+              // right
+              left: auto;
+              right: -32px;
+              border-width: 35px 0 35px 32px;
+              border-color: transparent transparent transparent $base-color;
+              border-color: transparent transparent transparent rgba($base-color, .8);
+            }
+          }
+        }
+        &:nth-child(even) {
+          // left
+          bottom: 6px;
+          left: 6px;
+          &:before {
+            // left
+            position: absolute;
+            content: '';
+            top: 50%;
+            margin-top: -35px;
+            left: -32px;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 35px 32px 35px 0;
+            border-color: transparent $base-color transparent transparent;
+            border-color: transparent rgba($base-color, .8) transparent transparent;
+          }
+        }
+      }
+    }
+  }
+  .large-block {
+    width: 50%;
+    display: none;
+    float: left;
+    position: relative;
+    .normal-img {
+      min-height: unset;
+    }
+    // Первая картинка - текст справа, вторая картинка - текст слева
+    &.tr-bl {
+    .img-list {
+      li {
+        &:nth-child(odd) {
+          .work-description {
+            // right
+            top: 6px;
+            right: 6px;
+            left: auto;
+            bottom: auto;
+          }
+        }
+        &:nth-child(even) {
+          .work-description {
+            // left
+            bottom: 6px;
+            left: 6px;
+            &:before {
+              // right
+              left: auto;
+              right: -32px;
+              border-width: 35px 0 35px 32px;
+              border-color: transparent transparent transparent $base-color;
+              border-color: transparent transparent transparent rgba($base-color, .8);
+            }
+          }
+        }
+        }
+      }
+    }
+    // Первая картинка - текст слева, вторая картинка - текст справа
+    &.tl-br {
+      .img-list {
+        li {
+          &:nth-child(odd) {
+            .work-description {
+              &:before {
+                // right
+                left: auto;
+                right: -32px;
+                border-width: 35px 0 35px 32px;
+                border-color: transparent transparent transparent $base-color;
+                border-color: transparent transparent transparent rgba($base-color, .8);
+              }
+            }
+          }
+          &:nth-child(even) {
+            .work-description {
+                // right
+                top: auto;
+                right: 6px;
+                left: auto;
+              bottom: 6px;
+              &:before {
+                // left
+                position: absolute;
+                content: '';
+                top: 50%;
+                margin-top: -35px;
+                left: -32px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 35px 32px 35px 0;
+                border-color: transparent $base-color transparent transparent;
+                border-color: transparent rgba($base-color, .8) transparent transparent;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  // Текст справа снизу right bottom
+  .small-block.rb {
+    width: 50%;
+    float: left;
+    position: relative;
+    .work-description {
+      bottom: 6px;
+      top: auto;
+      right: 6px;
+      left: auto;
+    }
+    .img-list {
+      li {
+          .work-description {
+            &:before {
+              // left
+              left: -32px;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 35px 32px 35px 0;
+              border-color: transparent $base-color transparent transparent;
+              border-color: transparent rgba($base-color, .8) transparent transparent;
+            }
+          }
+      }
+    }
+  }
+  @media (min-width: $max-body-w) {
+    margin: 0 auto;
+    .works-list {
+      li {
+        &:nth-child(odd) {
+          .small-block.left {
+            display: none;
+          }
+        }
+        &:nth-child(even) {
+          .small-block.right {
+            display: none;
+          }
+        }
+        .large-block {
+          display: block;
+        }
+        .normal-img {
+          display: block;
+          min-height: 868px;
+        }
+      }
+    }
+    .large-block {
+        li {
+          .normal-img {
+            display: block;
+            min-height: unset !important;
+          }
+        }
+    }
+  }
+}

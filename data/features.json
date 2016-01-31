@@ -1,0 +1,10 @@
+[
+  {"feature": "cookery-class", "price": 5000},
+  {"feature": "balloons", "price": 3000},
+  {"feature": "make-up", "price": 2000},
+  {"feature": "clothes", "price": 6000},
+  {"feature": "lights", "price": 4000},
+  {"feature": "games", "price": 5000},
+  {"feature": "fires", "price": 10000},
+  {"feature": "tricks", "price": 1000}
+]

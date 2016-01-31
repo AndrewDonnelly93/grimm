@@ -1,0 +1,322 @@
+/* Style main bg
+opacity: 0.2;
+width: 1920px;
+height: 989px;
+background-color: #FFC946;
+
+Герои Экслюкизвных программ
+
+В наших праздниках мы используем не только 
+качественные декорации но и профессиональных 
+актеров. Снизу вы можете увидеить их. Наведите на
+ героя, чтобы увидеть его действия
+ 
+ /* Style for квест гарри 
+color: #FFC946;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 400;
+
+/* Style for ╨д╨╕╨│╤Г╤А╨░ 5 */
+width: 184px;
+height: 5px;
+border: 5px solid #FFC946;
+
+/* Style for "╨У╨░╤А╤А╨╕ ╨Я╨╛╤В╤В╨╡╤А" */
+color: #333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for qfExhfJ2EaA */
+width: 949px;
+height: 713px;
+
+553
+
+/* Style for ╨button
+width: 249px;
+height: 61px;
+background-color: #FFC946;/* Style for "╨Я╨╛╨┤╤А╨╛╨▒╨╜╨╡╨╡" */
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 400;
+
+/* Style for "╨Ю╤Б╤В╨░╨▓╨╕╤В╤М ╨╖╨░╤П╨▓╨║" */
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 700;
+
+
+/* Style for именно поэтому
+color: #FFF;
+font-family: "Circe";
+font-size: 36px;
+font-weight: 700;
+
+/* Style for "5" */
+color: #FFC946;
+font-family: "Circe";
+font-size: 72px;
+font-weight: 700;
+
+width: 418px;
+
+/* Style for ilya
+color: #444;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 300;
+
+
+/* Style for "╨Ъ╤В╨╛ ╨▓╨╛ ╨▓╤Б╨╡╨╝ ╨▓╨╕" */
+color: #FFF;
+font-family: "Circe";
+font-size: 48px;
+font-weight: 700;
+text-transform: uppercase;
+
+Кто во всем виноват?
+
+Братья гримм, это компания тех, кто и тут текст про любителей работать, про горящие глаза, про то как все круто классно!
+
+Лаурят конкурса педагогических
+достижений
+
+Учитель информатики
+в школе
+
+Важатый
+
+Аниматор
+
+Волонтер по работе
+с детьми в Южной корее
+
+/* Style for 5 лет
+color: #333;
+font-family: "Circe";
+font-size: 36px;
+font-weight: 700;
+
+/* Style for волонтер
+color: #333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 300;
+
+/* Style for "╨Ш╨╗╤М╤П ╨з╤Г╨│╤Г╨╜╨╛╨▓ ╨Ь" */
+color: #444;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 300;
+
+/* Style for "╨Ш╨╗╤М╤П ╨з╤Г╨│╤Г╨╜╨╛╨▓ ╨Ь" */
+color: #444;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 300;
+
+Илья Чугунов
+Мария Павлова
+Наша Команда
+.Лаурят_конкурса_педагогических_достижений {
+  font-size: 24px;
+  font-family: "Circe";
+  color: rgb(51, 51, 51);
+  text-align: left;
+  position: absolute;
+  left: 565.766px;
+  top: 4596.397px;
+  z-index: 190;
+}
+
+/* Style for "╨Ъ╨░╨║╨╛╨╣ ╤Б╤Ж╨╡╨╜╨░╤А╨╕╨╣" */
+color: #333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 300;
+text-transform: uppercase;
+
+/* Style fo fancy
+width: 500px;
+height: 45px;
+background-color: #F8F8F8;
+border: 1px solid #D1D1D1;
+
+/* Style for гарри поттер
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 300;
+
+width: 19px;
+height: 19px;
+background-color: #FFC946;
+
+width: 499px;
+height: 2px;
+border: 2px solid #A2A2A2;
+
+/* Style for ╨Я╤А╤П╨╝╨╛╤Г╨│╨╛╨╗╤М╨╜╨╕╨║ 3 */
+width: 67px;
+height: 152px;
+background-color: #F8F8F8;
+
+/* Base style */
+font-family: "Circe";
+font-size: 18px;
+font-weight: 300;
+
+маза паркб пл.ленина
+color: #333;
+посмотреть карту
+color: #666;
+
+/* Style for заказать
+width: 249px;
+height: 61px;
+background-color: #FFC946;
+
+width: 16px;
+height: 16px;
+background-color: #FFF;
+border: 1px solid #C6C6C6;
+
+/* Style for "╨Ъ╤Г╨╗╨╕╨╜╨░╤А╨╜╤Л╨╣ ╨╝╨░╤Б" */
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 300;
+
+/* Style for мы рекомендуем
+color: #666;
+font-family: "Circe";
+font-size: 14px;
+font-weight: 300;
+
+/* Style for "╨д╨╕╤А╨╝╨╡╨╜╨╜╨░╤П ╨╛╨┤╨╡╨╢" */
+color: #333;
+font-family: "Circe";
+font-size: 16px;
+font-weight: 300;
+
+/* Style for "╨Ч╨░╨║╨░╨╖╨░╤В╤М" */
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 700;
+
+Фирменная одежда включает в себя футболки и кепки
+ нашей компании либо мерч сделанный специально под ваш
+ сценарий. Например футболка с гарри поттером
+ 
+ /* Style for наши работы
+color: #333;
+font-family: "Circe";
+font-size: 48px;
+font-weight: 400;
+text-transform: uppercase;
+/* Style for "посмотреть все работы
+color: #999;
+font-family: "Circe";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for картинг
+color: #333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for "This is Photos" */
+color: #333;
+font-family: "Circe";
+font-size: 16px;
+font-weight: 300;
+
+Контакты
+елефон: 8 812 245 67 89
+
+почта: info@b-greem.ru
+АДРЕС: 144512, Санкт-Петербург. Полюстровский 
+пр. 137, к.1, оф.222
+
+Остались вопросы?
+Напишите нам и мы с удовольствием
+на них ответим!
+/* Style for "╨Ю╤Б╤В╨░╨╗╨╕╤Б╤М ╨▓╨╛╨┐╤А╨╛" */
+color: #333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 700;
+/* Base style */
+color: #333;
+font-family: "Circe";
+font-size: 18px;
+
+/* Style for "╨в╨╡╨╗╨╡╤Д╨╛╨╜: " */
+font-weight: 300;
+text-transform: uppercase;
+
+/* Style for "8 812 245 67 8" */
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for "info@b-greem.r" */
+font-weight: 400;
+
+/* Style for "╨Р╨Ф╨а╨Х╨б:" */
+font-weight: 300;
+
+/* Style for ╨н╨╗╨╗╨╕╨┐╤Б 4 ╨║╨╛╨┐╨╕╤П 2 */
+width: 10px;
+height: 10px;
+background-color: #B28C31;
+
+/* Style for "вернуться в  меню
+color: #C9A244;
+font-family: "Circe";
+font-size: 14px;
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for "детские праздники
+color: #221E1F;
+font-family: "Circe";
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+
+/* Style for детские праздники
+color: #221E1F;
+font-family: "Circe";
+font-size: 36px;
+font-weight: 400;
+text-transform: uppercase;
+закрыть меню ╨Ч╨░╨║╤А╤Л╤В╤М ╨╝╨╡╨╜╤О" */
+color: #033333;
+font-family: "Circe";
+font-size: 24px;
+font-weight: 700;\
+
+
+
+
+/* Style for вернуться
+color: #FFF;
+font-family: "Circe";
+font-size: 30px;
+font-weight: 400;
+
+/* Style for "гарри
+color: #FFF;
+font-family: "Circe";
+font-size: 48px;
+font-weight: 400;
+

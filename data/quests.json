@@ -1,0 +1,37 @@
+[{
+  "program": "fort",
+  "price": 7000
+}, {
+  "program": "hp",
+  "price": 5000
+}, {
+  "program": "maincraft",
+  "price": 6000
+},  {
+  "program": "notices",
+  "price": 8000
+}, {
+  "program": "angry-birds",
+  "price": 9000
+}, {
+  "program": "cookery",
+  "price": 10000
+}, {
+  "program": "egypt",
+  "price": 7000
+}, {
+  "program": "white-disco",
+  "price": 4000
+}, {
+  "program": "fear-factor",
+  "price": 6000
+}, {
+  "program": "time-lord",
+  "price": 4000
+}, {
+  "program": "bamblbi",
+  "price": 5000
+},  {
+  "program": "star-wars",
+  "price": 5000
+}]
